@@ -1,4 +1,4 @@
-def perform_operation(num1: float, num2: float, operation: str):
+def perform_operation(num1, num2, operation):
     if operation == "add":
         return  num1 + num2
     elif operation == "subtract":
@@ -9,7 +9,12 @@ def perform_operation(num1: float, num2: float, operation: str):
         if num2 == 0:
             print("you can not divide on 0")
             exit()
-    return num1 / num2
+        return num1 / num2
+
+    else :
+        print("entere an arithmetic op")
+        exit()
+
    
 def main():
     print("Arithmetic Operations")

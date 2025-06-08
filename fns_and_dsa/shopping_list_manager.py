@@ -10,14 +10,14 @@ def main():
     shopping_list = []
     while True:
         display_menu()
-        choice = input("Enter your choice: ")
+        choice = input(int("Enter your choice: "))
 
         if choice == '1':
-            item = input("choose your item: ")
+            item = input(int("choose your item: "))
             shopping_list.append(item)
 
         elif choice == '2':
-            rm = input("enter the item you want to remove")
+            rm = input(int("enter the item you want to remove"))
             if rm in shopping_list:
                 shopping_list.remove(item)
 

@@ -19,5 +19,5 @@ elif fc == "C":
     print("c to f is: ", res)
     
 else :
-    print("Invalid input. Please enter 'C' or 'F'.")
+    print("Invalid temperature. Please enter a numeric value.")
     exit()

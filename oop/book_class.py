@@ -13,6 +13,6 @@ class Book:
         return f"Book('{self.title}', '{self.author}', {self.year})"
         
     def __del__(self):
-        print(f"this title has been deleted: {self.title}")
+        print(f"Deleting: {self.title}")
         
     
